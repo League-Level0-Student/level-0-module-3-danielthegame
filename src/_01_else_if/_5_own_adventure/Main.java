@@ -77,12 +77,20 @@ public class Main {
 			}
 			
 			if(choice3.contentEquals("2")) {
-				//JOption
+				JOptionPane.showMessageDialog(null,"So then the gorilla just looked at you and \n"
+						+ "he just went back to his cage and you threw a rock cause you \n"
+						+ "were still mad at him for taking your banana then you \n"
+						+ "ran and he tackeld you to death YOU DIED !!!!!!!  ");
 			}
+		}  else if(choice1.contentEquals("3")) {
+			JOptionPane.showInputDialog("So then the elephants started to chase you and you where running \n"
+					+ "so the the lions came and started to eat the elephants and then you where "
+					+ "like\n free at last and the there where two paths.\n\n"		 
+					+ "Enter 1 for a path with hungry lions that have not eaten for 3 years \n"
+					+ "Enter 2 aligatters who had food but they are still hungry");
 		}
 	}
 }
-
 
 
 
