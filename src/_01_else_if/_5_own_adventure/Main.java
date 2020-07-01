@@ -82,7 +82,7 @@ public class Main {
 						+ "were still mad at him for taking your banana then you \n"
 						+ "ran and he tackeld you to death YOU DIED !!!!!!!  ");
 			} else {
-				
+				JOptionPane.showMessageDialog(null,"WRONG put something else plz");
 				
 			}
 			
