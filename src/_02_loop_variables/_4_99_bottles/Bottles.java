@@ -26,7 +26,6 @@ public class Bottles {
 			if(juiceBoxesNotDrank == 1) {
 				 
 				myBox = "box";
-				//System.out.println(myBox);
 			}
 		
 			System.out.println(juiceBoxesNotDrank + " juice " + myBox + " on the wall, " + juiceBoxesNotDrank + 
