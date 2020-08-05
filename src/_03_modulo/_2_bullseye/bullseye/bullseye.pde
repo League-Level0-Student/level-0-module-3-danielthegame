@@ -8,21 +8,32 @@ void setup() {
 
 void draw() {
   
-  //Starting with the largest ellipse, use a for loop to draw a bullseye with ellipses.
-  
-  //Use an if statement and modulo to alternate the color of your rings.
-  
   /*
    * Step 1, create it manually using code! DONE!
    * Step 2, shorten program using for loop and modulo.
    */
-  
+ 
   int red = #ff0000;
   int black = #000000;
   int ringDiameter = 40;
   int width = 400;
   int height = 400;
   
+  for( int i = 1; i < 10; ++i ){
+
+    if(i % 2 == 0) {
+  
+      fill(black);
+      ellipse(200, 200, width - (ringDiameter * i), height - (ringDiameter * i));
+      
+    } else {
+      
+      fill(red);
+      ellipse(200, 200, width - (ringDiameter * i), height - (ringDiameter * i));
+    }
+  }
+  
+  /*
   //First outside ring
   fill(red);
   ellipse(200, 200, width, height);
@@ -55,8 +66,5 @@ void draw() {
   
   fill(black);
   ellipse(200,200,width - (ringDiameter * 9 ), height - (ringDiameter * 9 ));
-  
-  
-  
-  
+  */
 }
