@@ -8,6 +8,7 @@ package _03_modulo._4_fizz_buzz;
 * In this project, we're going to build FizzBuzz. It's a children's game where
 * you count from 1 to 20. Easy, right? Here's the catch: 
 * 
+*  
 * Instead of saying a number that is divisible by 3, say "Fizz".
 * And instead of saying a number that is divisible by 5, say "Buzz".
 * For numbers divisible by both 3 and 5, say "FizzBuzz".
@@ -21,6 +22,33 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
+	
+ public static void main(String[] args) {
+	for(int i = 1; i < 20; i++) {
+		   if(i % 3 == 0 &&(i % 5 == 0)) {
+			 System.out.println("fizzbuzz");
+		   }
+		   else if(i % 5 == 0) {
+			   System.out.println("buzz");
+		   }
+		   else if(i % 3 == 0) {
+			   System.out.println("fizz");
+		   } else {
+			   System.out.println(i);
+		   }
+		   
+			   
+		   
+		                }
+	}
+} 
 
-}
+		
+	
+		
+	
+
+	
+
+
 
